@@ -1,0 +1,98 @@
+
+body{
+    height: 100%;
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.logo{
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 50px;
+    top: 40px;
+}
+
+.cuerpo{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+.parrafo, .conteiner{
+    display:flex;
+    flex: 1 1 100%; 
+    margin-bottom: 10px; 
+  }
+
+.respuesta{
+    flex: 1 1 50%; 
+    margin-left: 10px;
+}
+
+
+#inputTexto, #outputTexto{
+    
+    width: 307px;
+    height: 48px;
+    left: 224px;
+    top: 156px;
+    border: none; 
+    outline: none;
+    resize: none;
+}
+
+#inputTexto::placeholder {
+    color:#0A3871; 
+    font-family: 'Georgia'
+}
+
+#encriptarBtn{
+    background-color: #0A3871; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin-right: 20px; 
+}
+
+#desencriptarBtn{
+    background-color: #E5E5E5; 
+    color: #0A3871; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin-right: 20px; 
+}
+
+#encriptarBtn::hover{
+    background-color: #082a55
+}
+
+
+#outputTexto::placeholder {
+    color:#0A3871; 
+    font-family: 'Georgia'
+}
+
+#copiarBtn{
+    background-color: #E5E5E5; 
+    color: #0A3871; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin-right: 20px; 
+}
